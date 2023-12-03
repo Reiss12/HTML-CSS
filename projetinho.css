@@ -1,0 +1,65 @@
+html, body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+@font-face {
+    font-family: 'Boulder' ;
+    src: url('Boulder Regular.otf') format('opentype'), 
+    url('Boulder Regular.ttf') format('truetype');
+   
+}
+header{ 
+    background-color: #086fcf;
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+}    
+  img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    
+    
+}
+   
+
+
+
+header h1{
+    color: #FF4d3c;
+    font-family: 'Boulder';
+    
+}
+span {
+    margin: auto 40px auto auto;
+    font-size: x-large;
+}
+body{
+    background-color: #9ed2fc;
+}
+.search-btn {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: auto auto 100px 170px;
+}
+ header .search-box {
+    display:flex;
+    border-radius:40px;
+    background: white;
+    height: 40px;
+    width:fit-content;
+    padding: 10px;
+    justify-content: space-between;
+    margin: auto 200px auto auto ;
+    
+    
+}
+.search-text{
+    background: none;
+    border: 0;
+    outline: 0;
+}
+ 
